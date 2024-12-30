@@ -1,0 +1,15 @@
+.footer {
+    background-color: #fbfbfb;
+    padding-left: 50px;
+    padding-right: 40px;
+    display: flex;
+}
+
+#firstPart {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+
+}

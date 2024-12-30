@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 70px;
+    padding-right: 32px;
+    padding-top: 1px;
+    border-bottom: 1px solid #aaa;
+}
+ul{
+    display: flex;
+    column-gap: 30px;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    column-gap: 30px;
+}
