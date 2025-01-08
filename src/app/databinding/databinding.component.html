@@ -1,0 +1,18 @@
+<h1>This is Header</h1>
+<div>
+    <img src={{image1}} width='200'>
+   <button [disabled]="(stock==0)?true:false">Buy now</button>
+   <input [value]="review" (input)="readValue($event)">
+   
+   <h2>Customer Review:{{review}}</h2>
+    <h2>Name: {{name}}</h2>
+   
+<input [value]="price" (input)="readPrice($event)">
+    <h2>Price: {{price}}Rs</h2>
+    <h2>Discounted Price: {{price-(price*discountedPrice/100)}}Rs</h2>
+    <h2>Left in stock: {{stock}}</h2>
+    <input type="text" [(ngModel)]="firstName">
+<p>{{firstName}}</p>
+
+</div>
+
